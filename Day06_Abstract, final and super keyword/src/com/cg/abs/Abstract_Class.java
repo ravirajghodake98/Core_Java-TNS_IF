@@ -14,7 +14,7 @@ class Apple extends Fruit
 	}
 }
 
-public class AbstractClass {
+public class Abstract_Class {
 
 	public static void main(String[] args) {
 		// we cannot create the object for abstract class
