@@ -10,6 +10,11 @@ abstract class A
 
 class B extends A
 {
+	/*void display()
+	{
+		System.out.println("Child class-B");
+		super.print();
+	}	*/
 	//As B is inheriting the properties of A class, then it has print method
 }
 
@@ -17,8 +22,11 @@ public class NonAbstractMethod {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		A a = new B();
+//		A a = new B();
+//		a.print();
+		B a = new B();
 		a.print();
+//		a.display();
 	}
 
 }
